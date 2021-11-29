@@ -17,6 +17,7 @@ Application running behind the UE, which receives the Downlink messages and stor
 ### openair-cn
 Module added:
 * src/drb_starter/: initializes a configuration procedure for several data radio bearers in the eNB, after the UE has atteched successfully.
+
 Modules manipulated:
 * src/nas/: sends a message to drb starter at reception of 'attach-complete'
 * src/s1ap/: send messages to drb starter at reception of 'mme-app-initial-ue-message' and 'e-rab-setup with successful outcome'
